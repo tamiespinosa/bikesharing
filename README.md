@@ -5,8 +5,6 @@
 ## Table of Contents
 - [Overview of Project](#OverviewProject)
 - [Results](#Results)
-  * [Website Functionality](#Website)
-  * [Code](#Code)
 - [Summary](#Summary)
 - [Resources](#Resources)
 
@@ -16,12 +14,36 @@ The purpose of this project is to analyze the data from August 2019 Citi Bike Sy
 
 ## <a name="Results"></a>Results
 
-NYC has a population of approximately 8.38 million people (according to wikipedia). In the month of August there's 2,344,332 riders (28% of the population). Of those riders the vast majority of them have a long term subscription to the bike sharing program (1,900,359 riders) where as customers do not represent a large percentage of the rider base (443,865 riders). As a commuter town with large use of public transportation, it makes sense that the majority of the use is by people with a subscription. We have also found out through our data that the majority of users are male (1,530,272 male users vs 588,431 female users, unknown gender is composed by the rest of the riders).
+NYC has a population of approximately 8.38 million people (according to wikipedia). In the month of August there's 2,344,332 riders (28% of the population). Of those riders the vast majority of them have a long term subscription to the bike sharing program (1,900,359 riders) where as customers do not represent a large percentage of the rider base (443,865 riders). As a commuter town with large use of public transportation, it makes sense that the majority of the use is by people with a subscription. We have also found out through our data that the majority of users are male (1,530,272 male users vs 588,431 female users, unknown gender is composed by the rest of the riders). In Figure 2 it is clear that male subscribers tend to be the main bike riders everyday of the week. 
+
+<p align="center"> <img src="Resources/customers.png" width ="70%" alt="customers"> </p>
+<p align="center"> Figure 1: Users Breakdowns</p> 
+
+<p align="center"> <img src="Resources/usertypegender.png" width ="70%" alt="usertypegender"> </p>
+<p align="center"> Figure 2: User Ride Distribution by Day of the Week</p> 
 
 
-The bike stations with the most bike pick ups and drop offs match the areas where commuters go to work in. Additioanlly, the peak hours for bike usage are betweem 8-9 am and 4-7 pm. These two facts indicate that a good amount of the bike usage is for commuting to and from work. Our heatmaps indicate that Monday through Friday at peak commuting hours mike usage is the strongest, further cementing this point. 
+The bike stations with the most bike pick ups and drop offs match the areas where commuters go to work in. Additioanlly, the peak hours for bike usage are betweem 8-9 am and 4-7 pm. These two facts indicate that a good amount of the bike usage is for commuting to and from work. Our heatmaps indicate that Monday through Friday at peak commuting hours bike usage is the strongest, further cementing this point. When accounting for gender we see that this remains true for females and males, with the only variation being the number of female vs males users, yet the peak hours for usage remain the same. 
+
+<p align="center"> <img src="Resources/maps.png" width ="70%" alt="maps"> </p>
+<p align="center"> Figure 3: Bike Pick Up and Drop Off Locations</p> 
+
+<p align="center"> <img src="Resources/peakhours.png" width ="70%" alt="peakhours"> </p>
+<p align="center"> Figure 4: Number of Riders by Each Hour in the Day</p> 
+
+<p align="center"> <img src="Resources/weekdayperhour.png" width ="70%" alt="weekdayperhour"> </p>
+<p align="center"> Figure 5: Bike Usage per Weekday per Hour</p> 
+
+<p align="center"> <img src="Resources/genderperhour.png" width ="70%" alt="genderperhour"> </p>
+<p align="center"> Figure 6: Bike Usage per Weekday per Hour by Gender</p> 
 
 We have learned that the trip duration of most bike rides are less than 40 minutes for all customers. When we see the check out times by gender, we discover that females and males bith ride less than 40 minutes, and the number of users for the time spent seems to be somewhat proportional to the overall number of users by gender. One thing that we can't see in this data is that most ridesharing services have a time limit for each time the bike is checked out. This could explain why most trips are under 40 minutes.  
+
+<p align="center"> <img src="Resources/usersbytripduration.png" width ="70%" alt="usersbytripduration"> </p>
+<p align="center"> Figure 7: Users by Trip Duration</p> 
+
+<p align="center"> <img src="Resources/tripdurationbygender.png" width ="70%" alt="tripdurationbygender"> </p>
+<p align="center"> Figure 8: Users by Trip Duration by Gender</p> 
 
 ## <a name="Summary"></a> Summary
 
